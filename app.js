@@ -247,7 +247,7 @@
 // if (isValidUsername(username)) {
 //     console.log("Username is valid: " + username);
 // } else {
-//     alert("Please enter a valid username without special symbols [@, ., , or !].");
+//     console.log("Please enter a valid username without special symbols [@, ., , or !].");
 // }
 
 
@@ -265,12 +265,24 @@
 // }
 // var searchResult = searchItemInsensitive(userInput);
 // if (searchResult !== -1) {
-//     alert(userInput + " is available at index " + searchResult + " in our bakery.");
+//     console.log(userInput + " is available at index " + searchResult + " in our bakery.");
 // } else {
-//     alert("We are sorry. " + userInput + " is not available in our bakery");
+//     console.log("We are sorry. " + userInput + " is not available in our bakery");
 // }
 // Chapter 21 - 25 (Q15)
-
+// function isValidPassword(password) {
+//     var containsAlphabets = /[a-zA-Z]/.test(password);
+//     var containsNumbers = /[0-9]/.test(password);
+//     var startsWithAlphabet = /^[a-zA-Z]/.test(password);
+//     var isMinimumLength = password.length >= 6;
+//     return containsAlphabets && containsNumbers && startsWithAlphabet && isMinimumLength;
+// }
+// var userPassword = prompt("Enter a password:");
+// if (isValidPassword(userPassword)) {
+//     console.log("Password is valid.");
+// } else {
+//     console.log("Password can not begin with a number \nPlease enter a valid password.");
+// }
 
 // Chapter 21 - 25 (Q16)
 // var university = "University of Karachi";
