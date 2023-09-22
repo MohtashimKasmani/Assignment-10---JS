@@ -252,8 +252,23 @@
 
 
 // Chapter 21 - 25 (Q14)
-
-
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInput = prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?:");
+// function searchItemInsensitive(input) {
+//     input = input.toLowerCase();
+//     for (var i = 0; i < A.length; i++) {
+//         if (A[i].toLowerCase() === input) {
+//             return i;
+//         }
+//     }
+//     return -1; 
+// }
+// var searchResult = searchItemInsensitive(userInput);
+// if (searchResult !== -1) {
+//     alert(userInput + " is available at index " + searchResult + " in our bakery.");
+// } else {
+//     alert("We are sorry. " + userInput + " is not available in our bakery");
+// }
 // Chapter 21 - 25 (Q15)
 
 
