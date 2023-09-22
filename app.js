@@ -220,6 +220,14 @@
 // console.log("Title Case: " + titleCaseInput);
 
 // Chapter 21 - 25 (Q12)
+var num = 35.36;
+
+var numString = num.toString();
+
+var resultString = numString.replace(".", "");
+
+console.log("Number: " + num);
+console.log("Result: " + resultString);
 
 
 // Chapter 21 - 25 (Q13)
