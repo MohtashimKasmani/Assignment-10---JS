@@ -174,24 +174,50 @@
 // console.log("Hello, " + fullName + "!");
 
 // Chapter 21 - 25 (Q7)
-var originalWord = "Hyderabad";
-var modifiedWord = originalWord.replace("Hyder", "Islam");
+// var originalWord = "Hyderabad";
+// var modifiedWord = originalWord.replace("Hyder", "Islam");
 
-console.log("City: " + originalWord);
-console.log("After Replacement: " + modifiedWord);
+// console.log("City: " + originalWord);
+// console.log("After Replacement: " + modifiedWord);
 
 
 // Chapter 21 - 25 (Q8)
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// var modifiedMessage = message.replace(/and/g, "&");
+
+// console.log("Original Message: " + message);
+// console.log("Modified Message: " + modifiedMessage);
 
 
 // Chapter 21 - 25 (Q9)
+// var str = "472";
+// var num = parseInt(str);
+
+// console.log("Value: " + str + " (Type: " + typeof str + ")");
+// console.log("Value: " + num + " (Type: " + typeof num + ")");
 
 
 // Chapter 21 - 25 (Q10)
+// var userInput = prompt("Enter some text:");
+// var uppercaseInput = userInput.toUpperCase();
+
+// console.log("User Input: " + userInput);
+// console.log("Upper Case: " + uppercaseInput);
 
 
 // Chapter 21 - 25 (Q11)
+// Prompt the user for input
+// var userInput = prompt("Enter a sentence:");
 
+// function toTitleCase(input) {
+//     return input.replace(/\w\S*/g, function(text) {
+//         return text.charAt(0).toUpperCase() + text.substr(1).toLowerCase();
+//     });
+// }
+// var titleCaseInput = toTitleCase(userInput);
+
+// console.log("User  Input: " + userInput);
+// console.log("Title Case: " + titleCaseInput);
 
 // Chapter 21 - 25 (Q12)
 
