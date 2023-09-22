@@ -139,21 +139,46 @@
 
 
 // Chapter 21 - 25 (Q2)
+// const favoritePhoneModel = prompt("Enter your favorite mobile phone model:");
+// const inputLength = favoritePhoneModel.length;
 
+// console.log(`My Favorite phone is: ${favoritePhoneModel}`);
+// console.log(`Length of String: ${inputLength}`);
 
 // Chapter 21 - 25 (Q3)
+// const word = "Pakistani";
+// const indexOfN = word.indexOf("n");
+
+// console.log(`String: "${word}"`);
+// console.log(`Index of "n": ${indexOfN}`);
 
 
 // Chapter 21 - 25 (Q4)
-
+// const word = "Hello World";
+// const lastIndex = word.lastIndexOf("l");
+// console.log(`String: "${word}"`);
+// console.log(`Last index of "l": ${lastIndex}`);
 
 // Chapter 21 - 25 (Q5)
+// const word = "Pakistani";
+// const characterAtIndex3 = word.charAt(3);
 
+// console.log(`String: "${word}"`);
+// console.log(`Character at index "3": ${characterAtIndex3}`);
 
 // Chapter 21 - 25 (Q6)
+// var firstName = prompt("Enter your first name:");
+// var lastName = prompt("Enter your last name:");
+// var fullName = firstName.concat(" ", lastName);
 
+// console.log("Hello, " + fullName + "!");
 
 // Chapter 21 - 25 (Q7)
+var originalWord = "Hyderabad";
+var modifiedWord = originalWord.replace("Hyder", "Islam");
+
+console.log("City: " + originalWord);
+console.log("After Replacement: " + modifiedWord);
 
 
 // Chapter 21 - 25 (Q8)
