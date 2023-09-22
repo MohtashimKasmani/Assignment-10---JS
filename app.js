@@ -220,17 +220,35 @@
 // console.log("Title Case: " + titleCaseInput);
 
 // Chapter 21 - 25 (Q12)
-var num = 35.36;
+// var num = 35.36;
 
-var numString = num.toString();
+// var numString = num.toString();
 
-var resultString = numString.replace(".", "");
+// var resultString = numString.replace(".", "");
 
-console.log("Number: " + num);
-console.log("Result: " + resultString);
+// console.log("Number: " + num);
+// console.log("Result: " + resultString);
 
 
 // Chapter 21 - 25 (Q13)
+// var username = prompt("Enter your username:");
+
+// function isValidUsername(username) {
+//     var specialSymbols = ['@', '.', ',', '!'];
+
+//     for (var i = 0; i < username.length; i++) {
+//         if (specialSymbols.includes(username[i])) {
+//             return false; 
+//         }
+//     }
+//     return true; 
+// }
+
+// if (isValidUsername(username)) {
+//     console.log("Username is valid: " + username);
+// } else {
+//     alert("Please enter a valid username without special symbols [@, ., , or !].");
+// }
 
 
 // Chapter 21 - 25 (Q14)
